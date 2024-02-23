@@ -1,11 +1,15 @@
 {
   "name": "tea-oss-one",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
+  "homepage": "https://github.com/nslogx/tea-oss-one",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nslogx",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
