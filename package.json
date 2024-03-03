@@ -1,8 +1,12 @@
 {
   "name": "tea-oss-one",
-  "version": "1.1.0",
+  "version": "1.4.0",
   "description": "",
   "homepage": "https://github.com/nslogx/tea-oss-one",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nslogx/tea-oss-one.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +14,9 @@
   "author": "nslogx",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "@nslogx/gitter": "^1.0.0",
+    "axios": "^1.6.7",
+    "lodash": "^4.17.21",
+    "tea-oss-two": "^1.0.1"
   }
 }
